@@ -1,0 +1,138 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header **/
+header{
+  background:#4caf50;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ff0000 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+
+  
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#c6260d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#c6260d;
+  font-weight:bold;
+}
+
+
+
+
+.option
+{
+  background-color: #d2ead3;
+}
+
+.option #p
+{
+
+   width: 245px;
+  padding: 12px 20px;
+  margin: 8px 2px;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  border-color: #4caf50;
+  text-decoration-color: pink;
+}
+
+
+/*pic */
+
+div.responsive {
+    padding: 0 1px;
+    margin: 0px;
+    float: left;
+    width: 60%;
+  }
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery #close-image {
+  border: 3px solid #ccc;
+  border-radius: 4px;
+    height: 90%;
+    width: 100%;
+    font-size: 14px;
+
+}
+
+div.gallery img {
+    width: 101%;
+    height: 230px;
+    margin: -3px;
+}
+div.desc {
+  
+  text-align: center;
+  padding-top: 0px;
+
+}
+
+footer {
+    padding: 20px;
+    margin-top: 806px;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-align: center;
+    left: 0;
+    bottom: 0px;
+    width: 97%;
+}
