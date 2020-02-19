@@ -78,7 +78,7 @@ header a:hover{
 .option #p
 {
 
-   width: 245px;
+   width: 235px;
   padding: 12px 20px;
   margin: 8px 2px;
   display: inline-block;
@@ -90,13 +90,18 @@ header a:hover{
   text-decoration-color: pink;
 }
 
+button#search
+{
+    height: 45px;
+    width: 45px;
+}
 
 /*pic */
 
 div.responsive {
     padding: 0 1px;
     margin: 0px;
-    float: left;
+    /*float: left;*/
     width: 60%;
   }
 
@@ -126,9 +131,104 @@ div.desc {
 
 }
 
+
+/* Customer_Profile*/
+
+div.Customer_Profile
+{
+    width: 156px;
+    height: 650px;
+    background-color: #4CAF50;
+    float: left;
+}
+
+img.profile
+{
+    padding: 3px;
+    vertical-align: middle;
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+input.profile_button
+{
+      text-align: center;
+    width: 100%;
+    height: 46px;
+    background: red;
+    font-size: medium;
+    color: white;
+}
+
+div.profile_details {
+    width: 86%;
+    height: 650px;
+
+     float: left;
+}
+
+h1#logo
+{
+  color: Red;
+}
+
+h2#details
+{
+      padding: 9px;
+      margin: 21px;
+      margin-left: 500px;
+}
+
+
+input#details
+{
+     padding: 9px;
+    margin: 8px;
+    margin-left: 16px;
+    width: 200px;
+}
+select#detail
+{
+      padding: 9px;
+    margin: 16px;
+    margin-left: 26px;
+    width: 219px;
+
+}
+
+h4
+{
+   padding: 9px;
+    margin: 8px;
+    margin-left: 16px;
+    width: 200px;
+
+}
+
+table{
+  
+  width: 70%;
+  color: #d96459;
+  font-family: monospace;
+  font-size: 25px;
+  margin-left: 154px;
+}
+th{
+
+  background-color: #d96459;
+  color: white;
+}
+
+tr:nth-child(even){background-color: #9e9e9e}
+
+
+
+
+
 footer {
     padding: 20px;
-    margin-top: 806px;
+    margin-top: 410px;
     color: #ffffff;
     background-color: #ff0000;
     text-align: center;
